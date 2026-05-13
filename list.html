@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>問題カタログ - CodeJourney</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --sidebar-bg: #111827;
+            --card-bg: #1e293b;
+            --text-main: #f1f5f9;
+            --text-dim: #94a3b8;
+            --accent-primary: #38bdf8;
+            --accent-secondary: #818cf8;
+            --border: #334155;
+            --level-a: #10b981;
+            --level-b: #3b82f6;
+            --level-c: #f59e0b;
+            --level-d: #ef4444;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Sidebar Navigation */
+        .sidebar {
+            width: 280px;
+            background-color: var(--sidebar-bg);
+            border-right: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 0;
+        }
+
+        .sidebar-header {
+            padding: 24px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .sidebar-header h2 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.25rem;
+            color: var(--accent-primary);
+        }
+
+        .sidebar-nav {
+            flex: 1;
+            overflow-y: auto;
+            padding: 16px 0;
+        }
+
+        .nav-item {
+            padding: 12px 24px;
+            cursor: pointer;
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.2s;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-item:hover {
+            background: rgba(56, 189, 248, 0.1);
+            color: var(--text-main);
+        }
+
+        .nav-count {
+            font-size: 0.75rem;
+            background: #334155;
+            padding: 2px 8px;
+            border-radius: 10px;
+            color: var(--text-main);
+        }
+
+        /* Main Content Area */
+        .main-content {
+            flex: 1;
+            overflow-y: auto;
+            scroll-behavior: smooth;
+            padding-bottom: 100px;
+        }
+
+        .content-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 40px;
+        }
+
+        header {
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 2.5rem;
+            margin-bottom: 8px;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .back-link {
+            color: var(--text-dim);
+            text-decoration: none;
+            font-size: 0.9rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            margin-bottom: 24px;
+        }
+
+        .back-link:hover { color: var(--accent-primary); }
+
+        /* Toolbar */
+        .toolbar {
+            position: sticky;
+            top: 0;
+            background: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(8px);
+            z-index: 100;
+            padding: 16px 0;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 40px;
+        }
+
+        .toolbar-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .filter-group {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .search-box {
+            position: relative;
+            flex: 1;
+            min-width: 250px;
+        }
+
+        .search-box input {
+            width: 100%;
+            background: #1e293b;
+            border: 1px solid var(--border);
+            color: white;
+            padding: 10px 16px;
+            border-radius: 999px;
+            outline: none;
+            font-size: 0.9rem;
+        }
+
+        .search-box input:focus { border-color: var(--accent-primary); }
+
+        .btn-filter {
+            background: #1e293b;
+            border: 1px solid var(--border);
+            color: var(--text-dim);
+            padding: 8px 16px;
+            border-radius: 999px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .btn-filter.active {
+            background: rgba(56, 189, 248, 0.2);
+            color: var(--accent-primary);
+            border-color: var(--accent-primary);
+        }
+
+        .view-toggle {
+            display: flex;
+            background: #1e293b;
+            padding: 4px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+        }
+
+        .toggle-btn {
+            padding: 6px 12px;
+            border: none;
+            background: transparent;
+            color: var(--text-dim);
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 0.8rem;
+        }
+
+        .toggle-btn.active {
+            background: var(--accent-primary);
+            color: var(--bg-color);
+            font-weight: 700;
+        }
+
+        /* Subject Section & Chapter Groups */
+        .subject-section {
+            margin-bottom: 60px;
+            scroll-margin-top: 100px;
+        }
+
+        .subject-title {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.75rem;
+            margin-bottom: 24px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .chapter-group {
+            background: rgba(30, 41, 59, 0.4);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            margin-bottom: 16px;
+            overflow: hidden;
+        }
+
+        .chapter-header {
+            padding: 16px 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            transition: background 0.2s;
+            user-select: none;
+        }
+
+        .chapter-header:hover {
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .chapter-title {
+            font-weight: 600;
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .chapter-toggle-icon {
+            transition: transform 0.2s;
+            color: var(--text-dim);
+            display: inline-block;
+            width: 12px;
+            text-align: center;
+        }
+
+        .chapter-group.collapsed .chapter-toggle-icon {
+            transform: rotate(-90deg);
+        }
+
+        .chapter-content {
+            padding: 24px;
+            border-top: 1px solid var(--border);
+            display: block;
+        }
+
+        .chapter-group.collapsed .chapter-content {
+            display: none;
+        }
+
+        /* Grid View */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: transform 0.2s, border-color 0.2s;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            flex-direction: column;
+            min-height: 120px;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            border-color: var(--accent-primary);
+        }
+
+        /* List View */
+        .list-view .grid {
+            display: block;
+        }
+
+        .list-item {
+            display: grid;
+            grid-template-columns: 100px 1fr 80px 90px 80px 120px;
+            align-items: center;
+            padding: 12px 20px;
+            background: var(--card-bg);
+            border-bottom: 1px solid var(--border);
+            text-decoration: none;
+            color: inherit;
+            font-size: 0.9rem;
+        }
+
+        .list-item:hover { background: rgba(56, 189, 248, 0.1); }
+        .list-item:last-child { border-bottom: none; }
+
+        /* Badges */
+        .badge {
+            font-size: 0.7rem;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 700;
+        }
+
+        .level-a { background: rgba(16, 185, 129, 0.1); color: var(--level-a); border: 1px solid var(--level-a); }
+        .level-b { background: rgba(59, 130, 246, 0.1); color: var(--level-b); border: 1px solid var(--level-b); }
+        .level-c { background: rgba(245, 158, 11, 0.1); color: var(--level-c); border: 1px solid var(--level-c); }
+        .level-d { background: rgba(239, 68, 68, 0.1); color: var(--level-d); border: 1px solid var(--level-d); }
+
+        .difficulty-badge {
+            font-size: 0.7rem;
+            font-weight: 700;
+            padding: 2px 7px;
+            border-radius: 4px;
+            background: rgba(255,255,255,0.06);
+            border: 1px solid #475569;
+            color: #94a3b8;
+            letter-spacing: 0.02em;
+        }
+
+        .status-badge {
+            font-size: 0.75rem;
+            padding: 4px 10px;
+            border-radius: 999px;
+            font-weight: 600;
+        }
+        .status-new { color: var(--text-dim); border: 1px solid #475569; }
+        .status-cleared { color: #34d399; background: rgba(16, 185, 129, 0.1); border: 1px solid #10b981; }
+        .status-partial { color: #fbbf24; background: rgba(245, 158, 11, 0.1); border: 1px solid #f59e0b; }
+
+        @media (max-width: 900px) {
+            .sidebar { display: none; }
+            .list-item { grid-template-columns: 80px 1fr 80px; }
+            .list-item .badge, .list-item .best-score, .list-item .difficulty-badge { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <h2>Problem Catalog</h2>
+        </div>
+        <div class="sidebar-nav" id="sidebar-nav"></div>
+    </aside>
+
+    <main class="main-content" id="main-content">
+        <div class="content-container">
+            <a href="index.html" class="back-link">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+                ホームへ戻る
+            </a>
+            <header>
+                <h1>Explore Problems</h1>
+                <p id="total-count-text" style="color: var(--text-dim)">読み込み中...</p>
+            </header>
+
+            <div class="toolbar">
+                <div class="toolbar-inner">
+                    <div class="search-box">
+                        <input type="text" id="search-input" placeholder="タイトル、No、チャプターで検索...">
+                    </div>
+                    <div class="filter-group">
+                        <button class="btn-filter active" data-filter="all">すべて</button>
+                        <button class="btn-filter" data-filter="new">未着手</button>
+                        <button class="btn-filter" data-filter="partial">挑戦中</button>
+                        <button class="btn-filter" data-filter="cleared">完了</button>
+                    </div>
+                    <div class="view-toggle">
+                        <button class="toggle-btn active" data-view="grid">グリッド</button>
+                        <button class="toggle-btn" data-view="list">リスト</button>
+                    </div>
+                    <div style="display: flex; gap: 8px; align-items: center; margin-left: auto;">
+                        <select class="toggle-btn" style="appearance: auto; padding: 6px 12px; background: rgba(30, 41, 59, 0.8); border: 1px solid var(--border);" id="mode-select">
+                            <option value="categorized">Categorized</option>
+                            <option value="flat">All Problems</option>
+                        </select>
+                        <select class="toggle-btn" style="appearance: auto; padding: 6px 12px; background: rgba(30, 41, 59, 0.8); border: 1px solid var(--border);" id="sort-select">
+                            <option value="serial">Serial No.</option>
+                            <option value="diff_desc">Diff (High to Low)</option>
+                            <option value="diff_asc">Diff (Low to High)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div id="catalog-body"></div>
+        </div>
+    </main>
+
+    <script src="problems/catalog.js"></script>
+    <script>
+        const state = {
+            catalog: window.problemCatalog || [],
+            progress: JSON.parse(localStorage.getItem('codejourney_progress') || '{}'),
+            results: JSON.parse(localStorage.getItem('codejourney_results') || '{}'),
+            filter: 'all',
+            search: '',
+            view: 'grid',
+            mode: 'categorized',
+            sortKey: 'serial',
+            groupedData: {},
+            renderedChapters: new Set()
+        };
+
+        const SUBJECT_ORDER = ["数学I", "数学A", "数学II", "数学B", "数学III", "数学C", "英語（短文補充）", "英語（長文読解）", "英語（英文和訳）", "英語（和文英訳）"];
+
+        function getStatus(id) {
+            if (state.progress[id]) return 'cleared';
+            if (state.results[id] && state.results[id].attempts > 0) return 'partial';
+            return 'new';
+        }
+
+        function getStatusLabel(status) {
+            return { cleared: '完了', partial: '挑戦中', new: '未着手' }[status];
+        }
+
+        function prepareData() {
+            const filtered = state.catalog.filter(item => {
+                if (state.filter !== 'all' && getStatus(item.id) !== state.filter) return false;
+                if (state.search) {
+                    const q = state.search.toLowerCase();
+                    return item.title.toLowerCase().includes(q) || 
+                           item.serial_number.toLowerCase().includes(q) ||
+                           (item.chapter_title || '').toLowerCase().includes(q);
+                }
+                return true;
+            });
+
+            state.groupedData = {};
+            filtered.forEach(item => {
+                if (!state.groupedData[item.subject_display]) state.groupedData[item.subject_display] = {};
+                const ch = item.chapter_title || "未分類";
+                if (!state.groupedData[item.subject_display][ch]) state.groupedData[item.subject_display][ch] = [];
+                state.groupedData[item.subject_display][ch].push(item);
+            });
+            
+            document.getElementById('total-count-text').textContent = `全${filtered.length}問が見つかりました。`;
+        }
+
+        function renderSidebar() {
+            const subjects = Object.keys(state.groupedData).sort((a, b) => {
+                let idxA = SUBJECT_ORDER.indexOf(a);
+                let idxB = SUBJECT_ORDER.indexOf(b);
+                return (idxA === -1 ? 999 : idxA) - (idxB === -1 ? 999 : idxB);
+            });
+
+            const nav = document.getElementById('sidebar-nav');
+            nav.innerHTML = subjects.map(s => {
+                let count = 0;
+                Object.values(state.groupedData[s]).forEach(arr => count += arr.length);
+                return `<div class="nav-item" onclick="scrollToSubject('${s}')">
+                    <span>${s}</span>
+                    <span class="nav-count">${count}</span>
+                </div>`;
+            }).join('');
+        }
+
+        function scrollToSubject(subject) {
+            const el = document.getElementById(`section-${subject}`);
+            if (el) el.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function createItemHtml(item) {
+            const status = getStatus(item.id);
+            const statusLabel = getStatusLabel(status);
+            const bestScore = state.results[item.id]?.bestScore || '--';
+            const levelShort = item.level.replace('level_', '').toUpperCase();
+            const difficulty = item.difficulty !== undefined ? Number(item.difficulty).toFixed(1) : null;
+            const diffLabel = difficulty !== null ? `★ ${difficulty}` : '';
+            const diffClass = item.difficulty_level ? `level-${item.difficulty_level.toLowerCase()}` : `level-${levelShort.toLowerCase()}`;
+            
+            if (state.view === 'grid') {
+                return `
+                    <a class="card" href="index.html?path=${encodeURIComponent(item.path)}&lessonId=${encodeURIComponent(item.id)}">
+                        <div style="font-size: 0.75rem; color: var(--accent-primary); font-weight: 700; margin-bottom: 6px;">${item.serial_number}</div>
+                        <div style="font-weight: 600; margin-bottom: 12px; line-height: 1.4;">${item.title}</div>
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-top: auto; flex-wrap: wrap; gap: 6px;">
+                            <span class="status-badge status-${status}">${statusLabel}</span>
+                            <div style="display: flex; align-items: center; gap: 6px;">
+                                ${difficulty !== null ? `<span class="difficulty-badge">${diffLabel}</span>` : ''}
+                                <span class="badge ${diffClass}">${item.difficulty_level || levelShort}</span>
+                            </div>
+                        </div>
+                    </a>`;
+            } else {
+                return `
+                    <a class="list-item" href="index.html?path=${encodeURIComponent(item.path)}&lessonId=${encodeURIComponent(item.id)}">
+                        <span style="font-weight: 700; color: var(--accent-primary); width: 120px;">${item.serial_number}</span>
+                        <span style="font-weight: 500;">${item.title}</span>
+                        <span class="difficulty-badge" style="text-align: center;">${diffLabel}</span>
+                        <span class="badge ${diffClass}" style="text-align: center;">${item.difficulty_level || levelShort}</span>
+                        <span class="status-badge status-${status}" style="font-size: 0.7rem; padding: 2px 8px;">${statusLabel}</span>
+                        <span style="font-size: 0.8rem; text-align: right; color: var(--text-dim);">Best: ${bestScore}点</span>
+                    </a>`;
+            }
+        }
+
+        function renderCatalog() {
+            const container = document.getElementById('catalog-body');
+            container.innerHTML = '';
+            state.renderedChapters.clear();
+
+            if (state.mode === 'flat') {
+                renderFlatList();
+                return;
+            }
+
+            const fragment = document.createDocumentFragment();
+            const subjects = Object.keys(state.groupedData).sort((a, b) => {
+                let idxA = SUBJECT_ORDER.indexOf(a);
+                let idxB = SUBJECT_ORDER.indexOf(b);
+                return (idxA === -1 ? 999 : idxA) - (idxB === -1 ? 999 : idxB);
+            });
+
+            subjects.forEach(subject => {
+                const section = document.createElement('section');
+                section.className = 'subject-section';
+                section.id = `section-${subject}`;
+                
+                const chapters = state.groupedData[subject];
+                const chapterNames = Object.keys(chapters).sort();
+
+                section.innerHTML = `<h2 class="subject-title">${subject}</h2>`;
+
+                chapterNames.forEach(chName => {
+                    const groupKey = `${subject}||${chName}`;
+                    const items = chapters[chName];
+
+                    const chapterDiv = document.createElement('div');
+                    chapterDiv.className = 'chapter-group collapsed';
+                    chapterDiv.id = `chapter-${groupKey}`;
+                    
+                    const header = document.createElement('div');
+                    header.className = 'chapter-header';
+                    header.onclick = () => toggleChapter(groupKey);
+                    header.innerHTML = `
+                        <div class="chapter-title">
+                            <span class="chapter-toggle-icon">▼</span>
+                            ${chName}
+                        </div>
+                        <span class="nav-count">${items.length}問</span>
+                    `;
+                    chapterDiv.appendChild(header);
+
+                    const content = document.createElement('div');
+                    content.className = `chapter-content ${state.view === 'list' ? 'list-view' : ''}`;
+                    content.id = `content-${groupKey}`;
+                    
+                    chapterDiv.appendChild(content);
+                    section.appendChild(chapterDiv);
+                });
+
+                fragment.appendChild(section);
+            });
+            container.appendChild(fragment);
+        }
+
+        function renderFlatList() {
+            const container = document.getElementById('catalog-body');
+            
+            let allItems = [];
+            Object.values(state.groupedData).forEach(chapters => {
+                Object.values(chapters).forEach(items => {
+                    allItems = allItems.concat(items);
+                });
+            });
+
+            allItems.sort((a, b) => {
+                if (state.sortKey === 'diff_desc') return (b.difficulty || 0) - (a.difficulty || 0);
+                if (state.sortKey === 'diff_asc') return (a.difficulty || 0) - (b.difficulty || 0);
+                
+                const ai = SUBJECT_ORDER.indexOf(a.subject_display);
+                const bi = SUBJECT_ORDER.indexOf(b.subject_display);
+                if (ai !== bi) return (ai === -1 ? 999 : ai) - (bi === -1 ? 999 : bi);
+                
+                const getNo = (sn) => {
+                    const m = sn.match(/No\.(\d+)/);
+                    return m ? parseInt(m[1]) : 0;
+                };
+                return getNo(a.serial_number) - getNo(b.serial_number);
+            });
+
+            const contentDiv = document.createElement('div');
+            contentDiv.className = state.view === 'list' ? 'chapter-content list-view' : 'grid';
+            if (state.view === 'list') contentDiv.style.display = 'grid';
+
+            contentDiv.innerHTML = allItems.map(item => createItemHtml(item)).join('');
+            container.appendChild(contentDiv);
+        }
+
+        function toggleChapter(key) {
+            const chapterDiv = document.getElementById(`chapter-${key}`);
+            if (chapterDiv.classList.contains('collapsed')) {
+                chapterDiv.classList.remove('collapsed');
+                if (!state.renderedChapters.has(key)) {
+                    const [subject, chName] = key.split('||');
+                    const content = document.getElementById(`content-${key}`);
+                    content.innerHTML = state.groupedData[subject][chName].map(item => createItemHtml(item)).join('');
+                    state.renderedChapters.add(key);
+                }
+            } else {
+                chapterDiv.classList.add('collapsed');
+            }
+        }
+
+        function refreshAll() {
+            prepareData();
+            renderSidebar();
+            renderCatalog();
+        }
+
+        document.getElementById('search-input').addEventListener('input', (e) => {
+            state.search = e.target.value;
+            refreshAll();
+        });
+
+        document.querySelectorAll('.btn-filter').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.btn-filter').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                state.filter = btn.dataset.filter;
+                refreshAll();
+            });
+        });
+
+        document.querySelectorAll('.view-toggle .toggle-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.view-toggle .toggle-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                state.view = btn.dataset.view;
+                renderCatalog();
+            });
+        });
+
+        document.getElementById('mode-select').addEventListener('change', (e) => {
+            state.mode = e.target.value;
+            renderCatalog();
+        });
+
+        document.getElementById('sort-select').addEventListener('change', (e) => {
+            state.sortKey = e.target.value;
+            renderCatalog();
+        });
+
+        document.addEventListener('DOMContentLoaded', refreshAll);
+    </script>
+</body>
+</html>
