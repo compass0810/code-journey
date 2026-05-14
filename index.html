@@ -1970,6 +1970,7 @@
                 }
 
                 await this.loadProgress();
+                this.migrateData();
 
                 // URLパラメータから直接問題を開く
                 const urlParams = new URLSearchParams(window.location.search);
@@ -1991,6 +1992,30 @@
 
                 // データ読み込み後の再描画
                 this.renderCurrentView();
+            },
+
+            migrateData() {
+                let modified = false;
+                Object.keys(this.results).forEach(id => {
+                    const res = this.results[id];
+                    if (res.bestScore === 100 || res.lastScore === 100) {
+                        let max = 100;
+                        if (id.includes('level_A')) max = 5;
+                        else if (id.includes('level_B')) max = 10;
+                        else if (id.includes('level_C')) max = 20;
+                        else if (id.includes('level_D')) max = 30;
+
+                        if (max !== 100) {
+                            if (res.bestScore === 100) res.bestScore = max;
+                            if (res.lastScore === 100) res.lastScore = max;
+                            modified = true;
+                        }
+                    }
+                });
+                if (modified) {
+                    console.log("Legacy data migrated to new score standard");
+                    this.saveProgress();
+                }
             },
 
             async loadProgress() {
