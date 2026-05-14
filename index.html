@@ -2869,9 +2869,12 @@ ${isImage ? '(画像データが送信されました。画像内の内容を読
                 }
 
                 if (isCorrect) {
+                    const level = this.state.path.find(p => p.startsWith('level_')) || 'level_A';
+                    const maxScore = this.state.levelMaxScores[level] || 100;
+
                     this.markLessonComplete(currentLesson.id);
                     this.recordAttempt(currentLesson.id, {
-                        score: 100,
+                        score: maxScore,
                         evaluation: 'OK',
                         cleared: true,
                         isBest: true,
