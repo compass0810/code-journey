@@ -1935,7 +1935,8 @@
                         key: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ2endlY2d3a2t0eXNqbHRqZWNhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg2NzMzNTMsImV4cCI6MjA5NDI0OTM1M30._v9WOSFJAYQDBjbGY2aoZN43JD_QvB-r_xgTWJBP5M0',
                         userId: localStorage.getItem('codejourney_supabase_user_id') || ''
                     };
-                }
+                },
+                progressLoaded: false
             },
             progress: {},
             results: {},
@@ -2054,9 +2055,15 @@
                         this.results = { ...this.results, ...(serverData.results || {}) };
                     }
                 } catch (e) { }
+
+                this.state.progressLoaded = true;
             },
 
             saveProgress() {
+                if (!this.state.progressLoaded) {
+                    console.warn("Save prevented: progress not yet loaded");
+                    return;
+                }
                 localStorage.setItem('codejourney_progress', JSON.stringify(this.progress));
                 localStorage.setItem('codejourney_results', JSON.stringify(this.results));
                 this.syncWithServer();
@@ -2123,6 +2130,7 @@
                     const { createClient } = await import('https://esm.run/@supabase/supabase-js');
                     this.supabase = createClient(config.url, config.key);
                     // 保存後にデータを再読み込みして同期
+                    this.state.progressLoaded = false;
                     await this.loadProgress();
                     this.renderCurrentView();
                 }
