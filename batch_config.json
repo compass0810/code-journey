@@ -1,0 +1,18 @@
+[
+    {"path": "english/short_fill/level_A", "count": 20},
+    {"path": "english/short_fill/level_B", "count": 20},
+    {"path": "english/short_fill/level_C", "count": 20},
+    {"path": "english/short_fill/level_D", "count": 20},
+    {"path": "english/long_reading/level_A", "count": 10},
+    {"path": "english/long_reading/level_B", "count": 10},
+    {"path": "english/long_reading/level_C", "count": 10},
+    {"path": "english/long_reading/level_D", "count": 10},
+    {"path": "english/translation_ej/level_A", "count": 15},
+    {"path": "english/translation_ej/level_B", "count": 15},
+    {"path": "english/translation_ej/level_C", "count": 15},
+    {"path": "english/translation_ej/level_D", "count": 15},
+    {"path": "english/translation_je/level_A", "count": 15},
+    {"path": "english/translation_je/level_B", "count": 15},
+    {"path": "english/translation_je/level_C", "count": 15},
+    {"path": "english/translation_je/level_D", "count": 15}
+]

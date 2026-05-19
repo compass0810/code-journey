@@ -1,0 +1,966 @@
+[
+  {
+    "path": "math/math_1/data_analysis/application/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/data_analysis/application/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/data_analysis/application/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/data_analysis/application/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/data_analysis/correlation/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/data_analysis/correlation/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/data_analysis/correlation/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/data_analysis/correlation/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/data_analysis/variance/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/data_analysis/variance/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/data_analysis/variance/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/data_analysis/variance/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/logic_and_sets/logic/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/logic_and_sets/logic/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/logic_and_sets/logic/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/logic_and_sets/logic/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/logic_and_sets/sets/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/logic_and_sets/sets/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/logic_and_sets/sets/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/logic_and_sets/sets/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/numbers_and_expressions/calculation/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/numbers_and_expressions/calculation/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/numbers_and_expressions/calculation/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/numbers_and_expressions/calculation/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/numbers_and_expressions/inequalities/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/numbers_and_expressions/inequalities/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/numbers_and_expressions/inequalities/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/numbers_and_expressions/inequalities/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/numbers_and_expressions/real_numbers/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/numbers_and_expressions/real_numbers/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/numbers_and_expressions/real_numbers/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/numbers_and_expressions/real_numbers/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/quadratics/equations_inequalities/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/quadratics/equations_inequalities/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/quadratics/equations_inequalities/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/quadratics/equations_inequalities/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/quadratics/graph/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/quadratics/graph/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/quadratics/graph/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/trigonometry/acute/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/trigonometry/acute/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/trigonometry/acute/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/trigonometry/acute/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/trigonometry/application/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/trigonometry/application/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/trigonometry/application/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/trigonometry/application/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/trigonometry/extension/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_1/trigonometry/extension/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/calculus/differentiation/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/calculus/differentiation/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/calculus/differentiation/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/calculus/differentiation/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/calculus/integration/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/calculus/integration/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/calculus/integration/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/calculus/integration/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/coordinates/circles/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/coordinates/circles/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/coordinates/circles/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/coordinates/circles/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/coordinates/lines/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/coordinates/lines/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/coordinates/lines/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/coordinates/lines/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/coordinates/loci/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/coordinates/loci/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/coordinates/loci/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/coordinates/loci/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/equations_proof/calculation/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/equations_proof/calculation/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/equations_proof/calculation/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/equations_proof/calculation/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/equations_proof/higher/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/equations_proof/higher/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/equations_proof/higher/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/equations_proof/higher/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/equations_proof/proof/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/equations_proof/proof/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/equations_proof/proof/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/equations_proof/proof/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/equations_proof/quadratics/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/equations_proof/quadratics/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/equations_proof/quadratics/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/equations_proof/quadratics/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/exponential_log/exponential/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/exponential_log/exponential/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/exponential_log/exponential/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/exponential_log/exponential/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/exponential_log/logarithmic/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/exponential_log/logarithmic/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/exponential_log/logarithmic/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/exponential_log/logarithmic/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/trigonometry/addition/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/trigonometry/addition/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/trigonometry/addition/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/trigonometry/addition/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/trigonometry/functions/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/trigonometry/functions/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/trigonometry/functions/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_2/trigonometry/functions/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/differentiation/basics/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/differentiation/basics/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/differentiation/basics/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/differentiation/basics/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/differentiation/derivatives/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/differentiation/derivatives/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/differentiation/derivatives/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/differentiation/derivatives/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/differentiation_apps/increase_decrease/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/differentiation_apps/increase_decrease/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/differentiation_apps/increase_decrease/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/differentiation_apps/increase_decrease/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/differentiation_apps/various/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/differentiation_apps/various/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/differentiation_apps/various/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/differentiation_apps/various/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/functions_limits/function_limits/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/functions_limits/function_limits/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/functions_limits/function_limits/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/functions_limits/function_limits/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/functions_limits/functions/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/functions_limits/functions/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/functions_limits/functions/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/functions_limits/functions/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/functions_limits/sequence_limits/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/functions_limits/sequence_limits/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/functions_limits/sequence_limits/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/functions_limits/sequence_limits/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/integration/applications/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/integration/applications/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/integration/applications/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/integration/applications/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/integration/definite/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/integration/definite/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/integration/definite/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/integration/definite/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/integration/indefinite/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/integration/indefinite/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/integration/indefinite/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_3/integration/indefinite/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_a/geometry/circles/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_a/geometry/circles/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_a/geometry/circles/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_a/geometry/circles/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_a/geometry/solid/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_a/geometry/solid/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_a/geometry/solid/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_a/geometry/solid/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_a/geometry/triangles/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_a/geometry/triangles/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_a/geometry/triangles/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_a/geometry/triangles/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_a/human_activity/enjoying/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_a/human_activity/enjoying/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_a/human_activity/enjoying/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_a/human_activity/enjoying/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_a/human_activity/living/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_a/human_activity/living/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_a/human_activity/living/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_a/human_activity/living/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_a/probability/basics/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_a/probability/basics/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_a/probability/basics/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_a/probability/basics/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_a/probability/counts/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_a/probability/counts/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_a/probability/counts/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_a/probability/counts/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_a/probability/sets/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_a/probability/sets/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_a/probability/sets/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_a/probability/sets/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_a/probability/various/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_a/probability/various/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_a/probability/various/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_a/probability/various/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_b/sequences/basics/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_b/sequences/basics/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_b/sequences/basics/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_b/sequences/basics/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_b/sequences/induction/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_b/sequences/induction/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_b/sequences/induction/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_b/sequences/induction/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_b/society/phenomena/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_b/society/phenomena/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_b/society/phenomena/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_b/society/phenomena/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_b/statistics/distribution/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_b/statistics/distribution/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_b/statistics/distribution/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_b/statistics/distribution/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_b/statistics/inference/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_b/statistics/inference/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_b/statistics/inference/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_b/statistics/inference/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_b/statistics/normal/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_b/statistics/normal/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_b/statistics/normal/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_b/statistics/normal/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_b/statistics/sampling/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_b/statistics/sampling/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_b/statistics/sampling/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_b/statistics/sampling/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_c/complex_plane/application/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_c/complex_plane/application/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_c/complex_plane/application/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_c/complex_plane/application/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_c/complex_plane/basics/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_c/complex_plane/basics/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_c/complex_plane/basics/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_c/complex_plane/basics/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_c/curves/polar/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_c/curves/polar/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_c/curves/polar/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_c/curves/polar/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_c/curves/quadrics/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_c/curves/quadrics/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_c/curves/quadrics/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_c/curves/quadrics/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_c/representation/data/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_c/representation/data/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_c/representation/data/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_c/representation/data/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_c/representation/matrices/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_c/representation/matrices/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_c/representation/matrices/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_c/representation/matrices/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_c/vectors/application/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_c/vectors/application/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_c/vectors/application/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_c/vectors/application/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_c/vectors/plane/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_c/vectors/plane/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_c/vectors/plane/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_c/vectors/plane/level_D",
+    "count": 1
+  },
+  {
+    "path": "math/math_c/vectors/space/level_A",
+    "count": 1
+  },
+  {
+    "path": "math/math_c/vectors/space/level_B",
+    "count": 1
+  },
+  {
+    "path": "math/math_c/vectors/space/level_C",
+    "count": 1
+  },
+  {
+    "path": "math/math_c/vectors/space/level_D",
+    "count": 1
+  }
+]

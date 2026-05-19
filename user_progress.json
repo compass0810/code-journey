@@ -1,0 +1,49 @@
+{
+  "progress": {
+    "english-translation_ej-level_A-2cd397a8-39c8-4fb5-aa19-e4f2b73653b4": true,
+    "english-translation_ej-level_A-2790dc52-5230-499b-bb03-953b240acb21": true,
+    "english-translation_ej-level_A-c9ea4bfa-4556-48f4-b5c5-63fb7725d119": true,
+    "html-1": true,
+    "html-2": true,
+    "js-1": true,
+    "math-math_1-numbers_and_expressions-calculation-level_A-bf31f0bc-603b-4230-b43b-baeb988eb560": true
+  },
+  "results": {
+    "english-translation_ej-level_A-2cd397a8-39c8-4fb5-aa19-e4f2b73653b4": {
+      "attempts": 1,
+      "bestEvaluation": "S",
+      "bestScore": 5,
+      "cleared": true,
+      "lastEvaluation": "S",
+      "lastScore": 5,
+      "updatedAt": "2026-05-03T15:16:21.915Z"
+    },
+    "english-translation_ej-level_A-2790dc52-5230-499b-bb03-953b240acb21": {
+      "attempts": 3,
+      "lastScore": 3,
+      "bestScore": 3,
+      "lastEvaluation": "B",
+      "bestEvaluation": "B",
+      "cleared": true,
+      "updatedAt": "2026-05-03T15:31:07.272Z"
+    },
+    "english-translation_ej-level_A-c9ea4bfa-4556-48f4-b5c5-63fb7725d119": {
+      "attempts": 1,
+      "bestEvaluation": "S",
+      "bestScore": 5,
+      "cleared": true,
+      "lastEvaluation": "S",
+      "lastScore": 5,
+      "updatedAt": "2026-05-03T15:22:57.230Z"
+    },
+    "math-math_1-numbers_and_expressions-calculation-level_A-bf31f0bc-603b-4230-b43b-baeb988eb560": {
+      "attempts": 1,
+      "bestEvaluation": "OK",
+      "bestScore": 100,
+      "cleared": true,
+      "lastEvaluation": "OK",
+      "lastScore": 100,
+      "updatedAt": "2026-05-03T14:48:51.123Z"
+    }
+  }
+}

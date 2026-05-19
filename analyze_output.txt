@@ -1,0 +1,369 @@
+﻿Total lessons: 734
+
+=== Duplicate by instruction content: 40 groups ===
+
+  Instruction (first 80 chars): "谺｡縺ｮ繝・・繧ｿ縺ｮ蟷ｳ蝮・､繧呈ｱゅａ縺ｪ縺輔＞縲・
+12, 15, 18, 20, 25"
+    id=math-math_1-data_analysis-application-level_A-223e-001
+    serial=謨ｰ蟄ｦI No.1, path=math/math_1/data_analysis/application/level_A
+    answers=['18']
+    id=math-math_1-data_analysis-application-level_A-4cf4-001
+    serial=謨ｰ蟄ｦI No.2, path=math/math_1/data_analysis/application/level_A
+    answers=['18']
+    id=math-math_1-data_analysis-application-level_A-af08-001
+    serial=謨ｰ蟄ｦI No.3, path=math/math_1/data_analysis/application/level_A
+    answers=['18']
+
+  Instruction (first 80 chars): "5縺､縺ｮ繝・・繧ｿ 2, 4, 6, 8, a 縺後≠繧九ゅ％縺ｮ繝・・繧ｿ縺ｮ蟷ｳ蝮・､縺・6 縺ｧ縺ゅｋ縺ｨ縺阪√％縺ｮ繝・・繧ｿ縺ｮ蛻・淵繧呈ｱゅａ繧医・
+    id=math-math_1-data_analysis-variance-level_C-0f07-001
+    serial=謨ｰ蟄ｦI No.33, path=math/math_1/data_analysis/variance/level_C
+    answers=['4']
+    id=math-math_1-data_analysis-variance-level_C-7ef8-001
+    serial=謨ｰ蟄ｦI No.34, path=math/math_1/data_analysis/variance/level_C
+    answers=['4']
+
+  Instruction (first 80 chars): "x = 竏・ + 竏・, y = 竏・ - 竏・ 縺ｮ縺ｨ縺阪』^3y + xy^3 縺ｮ蛟､繧呈ｱゅａ縺ｪ縺輔＞縲・
+    id=math-math_1-numbers_and_expressions-calculation-level_B-94d6-001
+    serial=謨ｰ蟄ｦI No.66, path=math/math_1/numbers_and_expressions/calculation/level_B
+    answers=['66']
+    id=math-math_1-numbers_and_expressions-calculation-level_B-dd39-001
+    serial=謨ｰ蟄ｦI No.67, path=math/math_1/numbers_and_expressions/calculation/level_B
+    answers=['52']
+
+  Instruction (first 80 chars): "2谺｡髢｢謨ｰ y=x^2-2ax+a+2 縺ｮ繧ｰ繝ｩ繝輔′x霆ｸ縺ｨ逡ｰ縺ｪ繧・轤ｹ縺ｧ莠､繧上ｋ繧医≧縺ｪ螳壽焚a縺ｮ蛟､縺ｮ遽・峇繧呈ｱゅａ繧医・
+    id=math-math_1-numbers_and_expressions-calculation-level_C-8baa-001
+    serial=謨ｰ蟄ｦI No.69, path=math/math_1/numbers_and_expressions/calculation/level_C
+    answers=['a<-1, a>2']
+    id=math-math_1-numbers_and_expressions-calculation-level_C-5610-001
+    serial=謨ｰ蟄ｦI No.70, path=math/math_1/numbers_and_expressions/calculation/level_C
+    answers=['a<-1, a>2']
+
+  Instruction (first 80 chars): "2谺｡譁ｹ遞句ｼ・x^2 - 5x + 6 = 0 繧定ｧ｣縺阪↑縺輔＞縲・
+    id=math-math_1-quadratics-equations_inequalities-level_A-6bf4-001
+    serial=謨ｰ蟄ｦI No.99, path=math/math_1/quadratics/equations_inequalities/level_A
+    answers=['x=2,3']
+    id=math-math_1-quadratics-equations_inequalities-level_A-f3e2-001
+    serial=謨ｰ蟄ｦI No.100, path=math/math_1/quadratics/equations_inequalities/level_A
+    answers=['x=2,3']
+    id=math-math_2-equations_proof-quadratics-level_A-ffb1-001
+    serial=謨ｰ蟄ｦII No.97, path=math/math_2/equations_proof/quadratics/level_A
+    answers=['x=2,3']
+
+  Instruction (first 80 chars): "x縺ｫ縺､縺・※縺ｮ2谺｡譁ｹ遞句ｼ・x^2 - 2ax + 4a - 3 = 0 縺後・1 < x < 2 縺ｮ遽・峇縺ｫ蟆代↑縺上→繧・縺､縺ｮ螳滓焚隗｣繧呈戟縺､繧医≧縺ｪ螳滓焚a縺ｮ蛟､縺ｮ遽・峇繧呈ｱゅａ"
+    id=math-math_1-quadratics-equations_inequalities-level_D-d583-001
+    serial=謨ｰ蟄ｦI No.108, path=math/math_1/quadratics/equations_inequalities/level_D
+    answers=['a < 1 縺ｾ縺溘・ a > 7/6']
+    id=math-math_2-equations_proof-calculation-level_D-244b-001
+    serial=謨ｰ蟄ｦII No.71, path=math/math_2/equations_proof/calculation/level_D
+    answers=['a < 7/6, a > 1']
+
+  Instruction (first 80 chars): "2谺｡髢｢謨ｰ y = (x-3)^2 + 5 縺ｮ繧ｰ繝ｩ繝輔・鬆らせ縺ｮ蠎ｧ讓吶ｒ豎ゅａ縺ｪ縺輔＞縲・
+    id=math-math_1-quadratics-graph-level_A-8be4-001
+    serial=謨ｰ蟄ｦI No.111, path=math/math_1/quadratics/graph/level_A
+    answers=['(3,5)']
+    id=math-math_1-quadratics-graph-level_A-d942-001
+    serial=謨ｰ蟄ｦI No.112, path=math/math_1/quadratics/graph/level_A
+    answers=['(3,5)']
+
+  Instruction (first 80 chars): "0ﾂｰ < ﾎｸ < 90ﾂｰ縺ｫ縺翫＞縺ｦ縲《inﾎｸ = 3/5 縺ｮ縺ｨ縺阪…osﾎｸ 縺ｮ蛟､繧呈ｱゅａ縺ｪ縺輔＞縲・
+    id=math-math_1-trigonometry-acute-level_A-0f52-001
+    serial=謨ｰ蟄ｦI No.121, path=math/math_1/trigonometry/acute/level_A
+    answers=['4/5']
+    id=math-math_1-trigonometry-extension-level_A-20fe-001
+    serial=謨ｰ蟄ｦI No.145, path=math/math_1/trigonometry/extension/level_A
+    answers=['4/5']
+
+  Instruction (first 80 chars): "髢｢謨ｰf(x) = x^2 - 2x + 3 縺ｮ繧ｰ繝ｩ繝穂ｸ翫・轤ｹ(2, 3)縺ｫ縺翫￠繧区磁邱壹ｒl縲∵ｳ慕ｷ壹ｒm縺ｨ縺吶ｋ縲ら峩邱嗟縺ｨ逶ｴ邱嗄縺ｮ莠､轤ｹ縺ｮ蠎ｧ讓吶ｒ豎ゅａ繧医・
+    id=math-math_2-calculus-differentiation-level_B-e369-001
+    serial=謨ｰ蟄ｦII No.4, path=math/math_2/calculus/differentiation/level_B
+    answers=['(2,3)']
+    id=math-math_3-functions_limits-functions-level_B-ac9b-001
+    serial=謨ｰ蟄ｦIII No.64, path=math/math_3/functions_limits/functions/level_B
+    answers=['(2,3)']
+    id=math-math_3-functions_limits-functions-level_B-6e2d-001
+    serial=謨ｰ蟄ｦIII No.65, path=math/math_3/functions_limits/functions/level_B
+    answers=['(2,3)']
+
+  Instruction (first 80 chars): "谺｡縺ｮ荳榊ｮ夂ｩ榊・繧呈ｱゅａ縺ｪ縺輔＞縲・
+竏ｫ(3x^2+4x+1)dx"
+    id=math-math_2-calculus-integration-level_A-da9c-001
+    serial=謨ｰ蟄ｦII No.13, path=math/math_2/calculus/integration/level_A
+    answers=['x^3+2x^2+x+C']
+    id=math-math_2-calculus-integration-level_A-1ca3-001
+    serial=謨ｰ蟄ｦII No.14, path=math/math_2/calculus/integration/level_A
+    answers=['x^3+2x^2+x+C']
+    id=math-math_2-calculus-integration-level_A-0547-001
+    serial=謨ｰ蟄ｦII No.15, path=math/math_2/calculus/integration/level_A
+    answers=['x^3+2x^2+x+C']
+    id=math-math_3-integration-indefinite-level_A-5acf-001
+    serial=謨ｰ蟄ｦIII No.109, path=math/math_3/integration/indefinite/level_A
+    answers=['x^3+2x^2+x+C']
+    id=math-math_3-integration-indefinite-level_A-0dec-001
+    serial=謨ｰ蟄ｦIII No.111, path=math/math_3/integration/indefinite/level_A
+    answers=['x^3+2x^2+x+C']
+
+  Instruction (first 80 chars): "謾ｾ迚ｩ邱・y = x^2 - 2x 縺ｨ逶ｴ邱・y = x 縺ｧ蝗ｲ縺ｾ繧後◆蝗ｳ蠖｢縺ｮ髱｢遨阪ｒ豎ゅａ縺ｪ縺輔＞縲・
+    id=math-math_2-calculus-integration-level_B-aab9-001
+    serial=謨ｰ蟄ｦII No.16, path=math/math_2/calculus/integration/level_B
+    answers=['9/2']
+    id=math-math_2-calculus-integration-level_B-2b0a-001
+    serial=謨ｰ蟄ｦII No.18, path=math/math_2/calculus/integration/level_B
+    answers=['9/2']
+
+  Instruction (first 80 chars): "荳ｭ蠢・′(2, -3)縺ｧ縲∝次轤ｹ(0, 0)繧帝壹ｋ蜀・・譁ｹ遞句ｼ上ｒ豎ゅａ縺ｪ縺輔＞縲・
+    id=math-math_2-coordinates-circles-level_A-73bc-001
+    serial=謨ｰ蟄ｦII No.25, path=math/math_2/coordinates/circles/level_A
+    answers=['(x-2)^2+(y+3)^2=13']
+    id=math-math_2-coordinates-circles-level_A-8e78-001
+    serial=謨ｰ蟄ｦII No.26, path=math/math_2/coordinates/circles/level_A
+    answers=['(x-2)^2+(y+3)^2=13']
+
+  Instruction (first 80 chars): "蜀・^2+y^2=5荳翫・轤ｹ(1,2)縺ｫ縺翫￠繧区磁邱壹ｒl縺ｨ縺吶ｋ縲ゅ∪縺溘∫せ(1,2)繧帝壹ｊ縲〕縺ｫ蝙ら峩縺ｪ逶ｴ邱壹ｒm縺ｨ縺吶ｋ縲ら峩邱嗄縺ｨx霆ｸ縺ｮ莠､轤ｹ縺ｮ蠎ｧ讓吶ｒ豎ゅａ繧医・
+    id=math-math_2-coordinates-circles-level_B-63a9-001
+    serial=謨ｰ蟄ｦII No.28, path=math/math_2/coordinates/circles/level_B
+    answers=['(-3,0)']
+    id=math-math_2-coordinates-circles-level_B-3777-001
+    serial=謨ｰ蟄ｦII No.30, path=math/math_2/coordinates/circles/level_B
+    answers=['(-3,0)']
+
+  Instruction (first 80 chars): "2轤ｹ(1, 2)縺ｨ(3, 6)繧帝壹ｋ逶ｴ邱壹・譁ｹ遞句ｼ上ｒ豎ゅａ縺ｪ縺輔＞縲・
+    id=math-math_2-coordinates-lines-level_A-9fa4-001
+    serial=謨ｰ蟄ｦII No.37, path=math/math_2/coordinates/lines/level_A
+    answers=['y=2x']
+    id=math-math_2-coordinates-lines-level_A-0067-001
+    serial=謨ｰ蟄ｦII No.38, path=math/math_2/coordinates/lines/level_A
+    answers=['y=2x']
+
+  Instruction (first 80 chars): "谺｡縺ｮ蠑上ｒ蝗謨ｰ蛻・ｧ｣縺励↑縺輔＞縲・
+x^2+5x+6"
+    id=math-math_2-equations_proof-calculation-level_A-4cc8-001
+    serial=謨ｰ蟄ｦII No.61, path=math/math_2/equations_proof/calculation/level_A
+    answers=['(x+2)(x+3)']
+    id=math-math_2-equations_proof-calculation-level_A-d2ca-001
+    serial=謨ｰ蟄ｦII No.62, path=math/math_2/equations_proof/calculation/level_A
+    answers=['(x+2)(x+3)']
+
+  Instruction (first 80 chars): "螳滓焚a縺ｫ蟇ｾ縺励』縺ｫ縺､縺・※縺ｮ2谺｡譁ｹ遞句ｼ・x^2 - 2ax + a + 2 = 0 縺後・1 < x < 1 縺ｮ遽・峇縺ｫ蟆代↑縺上→繧・縺､縺ｮ螳滓焚隗｣繧呈戟縺､繧医≧縺ｪa縺ｮ遽・峇繧・
+    id=math-math_2-equations_proof-calculation-level_D-16bd-001
+    serial=謨ｰ蟄ｦII No.72, path=math/math_2/equations_proof/calculation/level_D
+    answers=['-1 < a < 2']
+    id=math-math_2-equations_proof-proof-level_D-f73e-001
+    serial=謨ｰ蟄ｦII No.96, path=math/math_2/equations_proof/proof/level_D
+    answers=['-1 < a < 2']
+
+  Instruction (first 80 chars): "谺｡縺ｮ譁ｹ遞句ｼ上ｒ隗｣縺代・
+2^(x+1) = 8"
+    id=math-math_2-exponential_log-exponential-level_A-1804-001
+    serial=謨ｰ蟄ｦII No.109, path=math/math_2/exponential_log/exponential/level_A
+    answers=['x=2']
+    id=math-math_2-exponential_log-exponential-level_A-fb01-001
+    serial=謨ｰ蟄ｦII No.110, path=math/math_2/exponential_log/exponential/level_A
+    answers=['x=2']
+
+  Instruction (first 80 chars): "譁ｹ遞句ｼ・4^x - 3 * 2^(x+1) + 8 = 0 繧呈ｺ縺溘☆ x 縺ｮ蛟､繧偵☆縺ｹ縺ｦ豎ゅａ縺ｪ縺輔＞縲・
+    id=math-math_2-exponential_log-exponential-level_B-f64a-001
+    serial=謨ｰ蟄ｦII No.112, path=math/math_2/exponential_log/exponential/level_B
+    answers=['1,2']
+    id=math-math_2-exponential_log-exponential-level_B-f8fe-001
+    serial=謨ｰ蟄ｦII No.113, path=math/math_2/exponential_log/exponential/level_B
+    answers=['1,2']
+
+  Instruction (first 80 chars): "log_2(8) 縺ｮ蛟､繧呈ｱゅａ縺ｪ縺輔＞縲・
+    id=math-math_2-exponential_log-logarithmic-level_A-c6a7-001
+    serial=謨ｰ蟄ｦII No.122, path=math/math_2/exponential_log/logarithmic/level_A
+    answers=['3']
+    id=math-math_2-exponential_log-logarithmic-level_A-04e3-001
+    serial=謨ｰ蟄ｦII No.123, path=math/math_2/exponential_log/logarithmic/level_A
+    answers=['3']
+
+  Instruction (first 80 chars): "蜉豕募ｮ夂炊繧堤畑縺・※縲《in(75ﾂｰ)縺ｮ蛟､繧呈ｱゅａ縺ｪ縺輔＞縲・
+    id=math-math_2-trigonometry-addition-level_A-9d3d-001
+    serial=謨ｰ蟄ｦII No.143, path=math/math_2/trigonometry/addition/level_A
+    answers=['(sqrt(6)+sqrt(2))/4']
+    id=math-math_2-trigonometry-addition-level_A-7852-001
+    serial=謨ｰ蟄ｦII No.144, path=math/math_2/trigonometry/addition/level_A
+    answers=['(sqrt(6)+sqrt(2))/4']
+    id=math-math_2-trigonometry-addition-level_A-881f-001
+    serial=謨ｰ蟄ｦII No.145, path=math/math_2/trigonometry/addition/level_A
+    answers=['(sqrt(6)+sqrt(2))/4']
+
+  Instruction (first 80 chars): "谺｡縺ｮ蛟､繧呈ｱゅａ縺ｪ縺輔＞縲・
+sin(2/3*ﾏ) * cos(5/6*ﾏ)"
+    id=math-math_2-trigonometry-functions-level_A-3878-001
+    serial=謨ｰ蟄ｦII No.155, path=math/math_2/trigonometry/functions/level_A
+    answers=['-3/4']
+    id=math-math_2-trigonometry-functions-level_A-72a5-001
+    serial=謨ｰ蟄ｦII No.156, path=math/math_2/trigonometry/functions/level_A
+    answers=['-3/4']
+
+  Instruction (first 80 chars): "髢｢謨ｰf(x) = x^2 + ax (a縺ｯ螳壽焚) 縺ｮ繧ｰ繝ｩ繝穂ｸ翫・轤ｹ(1, 1+a)縺ｫ縺翫￠繧区磁邱壹′縲∫せ(0, -4)繧帝壹ｋ縺ｨ縺阪∥縺ｮ蛟､繧呈ｱゅａ縺ｪ縺輔＞縲・
+    id=math-math_3-differentiation-basics-level_C-c1f9-001
+    serial=謨ｰ蟄ｦIII No.8, path=math/math_3/differentiation/basics/level_C
+    answers=['-6']
+    id=math-math_3-differentiation-derivatives-level_C-bf20-001
+    serial=謨ｰ蟄ｦIII No.20, path=math/math_3/differentiation/derivatives/level_C
+    answers=['-6']
+
+  Instruction (first 80 chars): "髢｢謨ｰ f(x) = 2x^3 - 4x^2 + 5x - 1 繧貞ｾｮ蛻・＠縲∝ｰ朱未謨ｰ f'(x) 繧呈ｱゅａ縺ｪ縺輔＞縲・
+    id=math-math_3-differentiation-derivatives-level_A-8dd7-001
+    serial=謨ｰ蟄ｦIII No.13, path=math/math_3/differentiation/derivatives/level_A
+    answers=['6x^2-8x+5']
+    id=math-math_3-differentiation-derivatives-level_A-d06e-001
+    serial=謨ｰ蟄ｦIII No.15, path=math/math_3/differentiation/derivatives/level_A
+    answers=['6x^2-8x+5']
+
+  Instruction (first 80 chars): "髢｢謨ｰf(x) = x^3 - 3x^2 + 5 縺ｫ縺翫＞縺ｦ縲’'(x)繧呈ｱゅａ縺ｪ縺輔＞縲・
+    id=math-math_3-differentiation_apps-various-level_A-74ee-001
+    serial=謨ｰ蟄ｦIII No.37, path=math/math_3/differentiation_apps/various/level_A
+    answers=['3x^2-6x']
+    id=math-math_3-differentiation_apps-various-level_A-af12-001
+    serial=謨ｰ蟄ｦIII No.38, path=math/math_3/differentiation_apps/various/level_A
+    answers=['3x^2-6x']
+
+  Instruction (first 80 chars): "髢｢謨ｰf(x)=x^3-3x+a縺ｮ繧ｰ繝ｩ繝穂ｸ翫・轤ｹ(1, a-2)縺ｫ縺翫￠繧区磁邱壹′縲∫せ(0, 4)繧帝壹ｋ縺ｨ縺阪∝ｮ壽焚a縺ｮ蛟､繧呈ｱゅａ縺ｪ縺輔＞縲・
+    id=math-math_3-differentiation_apps-various-level_C-b641-001
+    serial=謨ｰ蟄ｦIII No.43, path=math/math_3/differentiation_apps/various/level_C
+    answers=['6']
+    id=math-math_3-differentiation_apps-various-level_C-5e41-001
+    serial=謨ｰ蟄ｦIII No.45, path=math/math_3/differentiation_apps/various/level_C
+    answers=['2']
+
+  Instruction (first 80 chars): "髢｢謨ｰf(x) = 2x^2 - 3x + 1 縺ｫ縺､縺・※縲’(3) 縺ｮ蛟､繧呈ｱゅａ縺ｪ縺輔＞縲・
+    id=math-math_3-functions_limits-functions-level_A-03ae-001
+    serial=謨ｰ蟄ｦIII No.61, path=math/math_3/functions_limits/functions/level_A
+    answers=['10']
+    id=math-math_3-functions_limits-functions-level_A-f9b4-001
+    serial=謨ｰ蟄ｦIII No.62, path=math/math_3/functions_limits/functions/level_A
+    answers=['10']
+
+  Instruction (first 80 chars): "谺｡縺ｮ讌ｵ髯仙､繧呈ｱゅａ繧医・
+lim_{x竊・} (x^2+3x-1)"
+    id=math-math_3-functions_limits-functions-level_A-ce29-001
+    serial=謨ｰ蟄ｦIII No.63, path=math/math_3/functions_limits/functions/level_A
+    answers=['9']
+    id=math-math_3-functions_limits-function_limits-level_A-829f-001
+    serial=謨ｰ蟄ｦIII No.51, path=math/math_3/functions_limits/function_limits/level_A
+    answers=['9']
+
+  Instruction (first 80 chars): "谺｡縺ｮ螳夂ｩ榊・繧呈ｱゅａ縺ｪ縺輔＞縲・
+竏ｫ[0, 2] (3x^2 - 2x + 1) dx"
+    id=math-math_3-integration-applications-level_A-5416-001
+    serial=謨ｰ蟄ｦIII No.85, path=math/math_3/integration/applications/level_A
+    answers=['6']
+    id=math-math_3-integration-applications-level_A-92a2-001
+    serial=謨ｰ蟄ｦIII No.86, path=math/math_3/integration/applications/level_A
+    answers=['6']
+    id=math-math_3-integration-definite-level_A-202e-001
+    serial=謨ｰ蟄ｦIII No.99, path=math/math_3/integration/definite/level_A
+    answers=['6']
+
+  Instruction (first 80 chars): "a繧呈ｭ｣縺ｮ螳壽焚縺ｨ縺吶ｋ縲よ叛迚ｩ邱・y = x^2 - ax 縺ｨ x霆ｸ縺ｧ蝗ｲ縺ｾ繧後◆驛ｨ蛻・・髱｢遨阪ｒ S(a) 縺ｨ縺吶ｋ縺ｨ縺阪ヾ(a) = 36 縺ｨ縺ｪ繧九ｈ縺・↑ a 縺ｮ蛟､繧呈ｱゅａ繧医・
+    id=math-math_3-integration-applications-level_C-5425-001
+    serial=謨ｰ蟄ｦIII No.92, path=math/math_3/integration/applications/level_C
+    answers=['6']
+    id=math-math_3-integration-applications-level_C-98c4-001
+    serial=謨ｰ蟄ｦIII No.93, path=math/math_3/integration/applications/level_C
+    answers=['6']
+
+  Instruction (first 80 chars): "螳滓焚a縺ｫ蟇ｾ縺励’(x) = 竏ｫ[0, 1] |t^2 - at| dt 縺ｨ縺吶ｋ縲Ｂ縺悟ｮ滓焚蜈ｨ菴薙ｒ蜍輔￥縺ｨ縺阪’(a)縺ｮ譛蟆丞､繧呈ｱゅａ繧医・
+    id=math-math_3-integration-applications-level_D-e3bd-001
+    serial=謨ｰ蟄ｦIII No.95, path=math/math_3/integration/applications/level_D
+    answers=['1/12']
+    id=math-math_3-integration-definite-level_D-d654-001
+    serial=謨ｰ蟄ｦIII No.106, path=math/math_3/integration/definite/level_D
+    answers=['1/12']
+
+  Instruction (first 80 chars): "蜀・^2 + y^2 = 25荳翫・轤ｹ(3, 4)縺ｫ縺翫￠繧区磁邱壹・譁ｹ遞句ｼ上ｒ豎ゅａ縺ｪ縺輔＞縲・
+    id=math-math_a-geometry-circles-level_A-727c-001
+    serial=謨ｰ蟄ｦA No.1, path=math/math_a/geometry/circles/level_A
+    answers=['3x+4y=25']
+    id=math-math_a-geometry-circles-level_A-f461-001
+    serial=謨ｰ蟄ｦA No.2, path=math/math_a/geometry/circles/level_A
+    answers=['3x+4y=25']
+
+  Instruction (first 80 chars): "蜀・^2+y^2=5荳翫・轤ｹ(1,2)縺ｫ縺翫￠繧区磁邱壹ｒl縺ｨ縺吶ｋ縲ょ・縺ｮ荳ｭ蠢・ｒO縺ｨ縺励〕縺ｨx霆ｸ縺ｮ莠､轤ｹ繧但縲〕縺ｨy霆ｸ縺ｮ莠､轤ｹ繧達縺ｨ縺吶ｋ縺ｨ縺阪≫無OAB縺ｮ髱｢遨阪ｒ豎ゅａ繧医・
+    id=math-math_a-geometry-circles-level_B-b0f0-001
+    serial=謨ｰ蟄ｦA No.4, path=math/math_a/geometry/circles/level_B
+    answers=['25/4']
+    id=math-math_a-geometry-circles-level_B-d918-001
+    serial=謨ｰ蟄ｦA No.6, path=math/math_a/geometry/circles/level_B
+    answers=['25/4']
+
+  Instruction (first 80 chars): "1霎ｺ縺ｮ髟ｷ縺輔′3縺ｧ縺ゅｋ豁｣蝗幃擇菴薙・菴鍋ｩ阪ｒ豎ゅａ縺ｪ縺輔＞縲・
+    id=math-math_a-geometry-solid-level_A-255b-001
+    serial=謨ｰ蟄ｦA No.13, path=math/math_a/geometry/solid/level_A
+    answers=['9*sqrt(2)/4']
+    id=math-math_a-geometry-solid-level_A-357c-001
+    serial=謨ｰ蟄ｦA No.14, path=math/math_a/geometry/solid/level_A
+    answers=['9*sqrt(2)/4']
+    id=math-math_a-geometry-solid-level_A-306e-001
+    serial=謨ｰ蟄ｦA No.15, path=math/math_a/geometry/solid/level_A
+    answers=['9*sqrt(2)/4']
+
+  Instruction (first 80 chars): "1蛟九・縺輔＞縺薙ｍ繧呈兜縺偵ｋ縺ｨ縺阪・莉･荳九・逶ｮ縺悟・繧狗｢ｺ邇・ｒ豎ゅａ縺ｪ縺輔＞縲・
+    id=math-math_a-probability-basics-level_A-1877-001
+    serial=謨ｰ蟄ｦA No.61, path=math/math_a/probability/basics/level_A
+    answers=['1/2']
+    id=math-math_a-probability-basics-level_A-db29-001
+    serial=謨ｰ蟄ｦA No.62, path=math/math_a/probability/basics/level_A
+    answers=['1/2']
+    id=math-math_a-probability-basics-level_A-fe69-001
+    serial=謨ｰ蟄ｦA No.63, path=math/math_a/probability/basics/level_A
+    answers=['1/2']
+
+  Instruction (first 80 chars): "蜈ｨ菴馴寔蜷・縺ｨ縺昴・驛ｨ蛻・寔蜷・, B縺ｫ縺､縺・※縲］(U)=50, n(A)=30, n(B)=20, n(A竏ｩB)=10縺ｧ縺ゅｋ縺ｨ縺阪］(A竏ｪB)繧呈ｱゅａ縺ｪ縺輔＞縲・
+    id=math-math_a-probability-sets-level_A-6b01-001
+    serial=謨ｰ蟄ｦA No.86, path=math/math_a/probability/sets/level_A
+    answers=['40']
+    id=math-math_a-probability-sets-level_A-40ca-001
+    serial=謨ｰ蟄ｦA No.87, path=math/math_a/probability/sets/level_A
+    answers=['40']
+
+  Instruction (first 80 chars): "1蛟九・繧ｵ繧､繧ｳ繝ｭ繧呈兜縺偵ｋ縺ｨ縺阪∝・謨ｰ縺ｮ逶ｮ縺悟・繧狗｢ｺ邇・ｒ豎ゅａ縺ｪ縺輔＞縲・
+    id=math-math_a-probability-various-level_A-cf0a-001
+    serial=謨ｰ蟄ｦA No.98, path=math/math_a/probability/various/level_A
+    answers=['1/2']
+    id=math-math_a-probability-various-level_A-b28d-001
+    serial=謨ｰ蟄ｦA No.99, path=math/math_a/probability/various/level_A
+    answers=['1/2']
+
+  Instruction (first 80 chars): "蛻晞・′3縲∝・蟾ｮ縺・縺ｧ縺ゅｋ遲牙ｷｮ謨ｰ蛻励・隨ｬn鬆・ｒ豎ゅａ縺ｪ縺輔＞縲・
+    id=math-math_b-society-phenomena-level_A-323c-001
+    serial=謨ｰ蟄ｦB No.25, path=math/math_b/society/phenomena/level_A
+    answers=['4n-1']
+    id=math-math_b-society-phenomena-level_A-ead2-001
+    serial=謨ｰ蟄ｦB No.27, path=math/math_b/society/phenomena/level_A
+    answers=['4n-1']
+
+  Instruction (first 80 chars): "讌ｵ蠎ｧ讓・r, ﾎｸ) = (4, ﾏ/3) 縺ｧ陦ｨ縺輔ｌ繧狗せ縺ｮ逶ｴ莠､蠎ｧ讓・x, y)繧呈ｱゅａ縺ｪ縺輔＞縲・
+    id=math-math_c-curves-polar-level_A-b0af-001
+    serial=謨ｰ蟄ｦC No.25, path=math/math_c/curves/polar/level_A
+    answers=['(2, 2*sqrt(3))']
+    id=math-math_c-curves-polar-level_A-68b2-001
+    serial=謨ｰ蟄ｦC No.26, path=math/math_c/curves/polar/level_A
+    answers=['(2,2竏・)']
+
+  Instruction (first 80 chars): "繝・・繧ｿ 2, 4, 6, 8, 10 縺ｮ蛻・淵繧呈ｱゅａ縺ｪ縺輔＞縲・
+    id=math-math_c-representation-data-level_A-e05e-001
+    serial=謨ｰ蟄ｦC No.49, path=math/math_c/representation/data/level_A
+    answers=['8']
+    id=math-math_c-representation-data-level_A-508f-001
+    serial=謨ｰ蟄ｦC No.50, path=math/math_c/representation/data/level_A
+    answers=['8']
+    id=math-math_c-representation-data-level_A-b979-001
+    serial=謨ｰ蟄ｦC No.51, path=math/math_c/representation/data/level_A
+    answers=['8']
+
+  Instruction (first 80 chars): "谺｡縺ｮ陦悟・縺ｮ遨阪ｒ險育ｮ励＠縺ｪ縺輔＞縲・
+[[1, 2], [3, 4]] [[5, 6], [7, 8]]"
+    id=math-math_c-representation-matrices-level_A-f75a-001
+    serial=謨ｰ蟄ｦC No.61, path=math/math_c/representation/matrices/level_A
+    answers=['[[19, 22], [43, 50]]']
+    id=math-math_c-representation-matrices-level_A-62d5-001
+    serial=謨ｰ蟄ｦC No.62, path=math/math_c/representation/matrices/level_A
+    answers=['[[19, 22], [43, 50]]']
+    id=math-math_c-representation-matrices-level_A-f2cc-001
+    serial=謨ｰ蟄ｦC No.63, path=math/math_c/representation/matrices/level_A
+    answers=['[[19, 22], [43, 50]]']
+
+=== Serial number details ===

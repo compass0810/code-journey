@@ -1,0 +1,34 @@
+[
+  {
+    "path": "english/long_reading/level_A",
+    "count": 15
+  },
+  {
+    "path": "english/long_reading/level_B",
+    "count": 15
+  },
+  {
+    "path": "english/short_fill/level_A",
+    "count": 15
+  },
+  {
+    "path": "english/short_fill/level_B",
+    "count": 15
+  },
+  {
+    "path": "english/translation_ej/level_A",
+    "count": 15
+  },
+  {
+    "path": "english/translation_ej/level_B",
+    "count": 15
+  },
+  {
+    "path": "english/translation_je/level_A",
+    "count": 15
+  },
+  {
+    "path": "english/translation_je/level_B",
+    "count": 15
+  }
+]
